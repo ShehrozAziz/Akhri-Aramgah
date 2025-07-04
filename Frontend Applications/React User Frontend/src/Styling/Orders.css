@@ -1,0 +1,81 @@
+.orders-card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 2px 2px #22201d;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 600px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+}
+.grave-book-card {
+  border-radius: 20px !important;
+  box-shadow: 0 2px 2px #22201d !important;
+}
+.order-container {
+  margin-top: 10px;
+}
+.orders-card-title {
+  font-size: 1.5rem;
+  margin-top: 0;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #22201d;
+}
+.orders-hr {
+  color: #22201d;
+}
+.orders-card-content {
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+  overflow-y: auto; /* Add vertical scroll */
+}
+.orders-card-content p {
+  margin: 5px 0;
+}
+.orders-notification {
+  margin-bottom: 2px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+.orders-order-item {
+  margin-bottom: 2px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding-top: 2px;
+  padding-left: 10px;
+}
+.orders-copy-button {
+  background-color: #22201d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.orders-copy-button:hover {
+  background-color: #22201d;
+  color: white;
+  box-shadow: 0 0 3px #22201d;
+}
+/* Styling the scrollbar */
+.orders-card-content::-webkit-scrollbar {
+  width: 8px;
+}
+.orders-card-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.orders-card-content::-webkit-scrollbar-thumb {
+  background: #22201d;
+  border-radius: 4px;
+}
+.orders-card-content::-webkit-scrollbar-thumb:hover {
+  background: #3a3731;
+}

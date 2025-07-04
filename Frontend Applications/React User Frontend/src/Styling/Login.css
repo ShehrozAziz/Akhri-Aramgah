@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.login-container {
+  font-family: "Poppins", sans-serif;
+  background: #ebeae9;
+  box-sizing: border-box;
+}
+
+/*------------ Login container ------------*/
+
+.login-container .Login-btn {
+  background-color: #22201d;
+  opacity: 1;
+  margin-top: 4rem;
+  color: white;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+.login-container .Login-btn:hover {
+  background-color: #22201d;
+  color: white;
+  box-shadow: 0 0 10px #22201d;
+}
+.Login-btn:disabled {
+  background-color: #444; /* Darker background color when disabled */
+  color: #aaa; /* Lighter text color when disabled */
+  cursor: not-allowed; /* Change cursor to indicate disabled state */
+  opacity: 0.9; /* Make button less opaque */
+}
+
+.login-container input:focus {
+  outline: 2px solid #22201d !important; /* Change the outline color */
+  box-shadow: 0 0 5px #d4a473 !important; /* Optional: add a shadow for a glowing effect */
+}
+.login-container input:invalid {
+  color: red; /* Red border for invalid input */
+}
+.login-container .box-area {
+  width: 930px;
+}
+
+/*------------ Right box ------------*/
+
+.login-container .right-box {
+  padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+.login-container ::placeholder {
+  font-size: 16px;
+}
+
+.login-container .rounded-4 {
+  border-radius: 20px;
+}
+.login-container .rounded-5 {
+  border-radius: 30px;
+}
+.login_link {
+  text-decoration: none;
+  color: blue;
+}
+.login_link:hover {
+  color: purple;
+}
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px) {
+  .login-container .box-area {
+    margin: 0 10px;
+  }
+  .login-container .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+  .login-container .right-box {
+    padding: 20px;
+  }
+}

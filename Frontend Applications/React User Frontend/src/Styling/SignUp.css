@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.signup-container {
+  font-family: "Poppins", sans-serif;
+  background: #ebeae9;
+  box-sizing: border-box;
+}
+
+/*------------ SignUp container ------------*/
+
+.signup-container .SignUp-btn {
+  background-color: #22201d;
+  opacity: 1;
+  margin-top: 4rem;
+  color: white;
+  border: 3px solid rgba(0, 0, 0, 0);
+}
+.signup-container .SignUp-btn:hover {
+  background-color: #22201d;
+  color: white;
+  box-shadow: 0 0 10px #22201d;
+}
+.SignUp-btn:disabled {
+  background-color: #444; /* Darker background color when disabled */
+  color: #aaa; /* Lighter text color when disabled */
+  cursor: not-allowed; /* Change cursor to indicate disabled state */
+  opacity: 0.9; /* Make button less opaque */
+}
+
+.signup-container input:focus {
+  outline: 2px solid #22201d !important; /* Change the outline color */
+  box-shadow: 0 0 5px #d4a473 !important; /* Optional: add a shadow for a glowing effect */
+}
+.signup-container input:invalid {
+  color: red; /* Red border for invalid input */
+}
+.signup-container .box-area {
+  width: 930px;
+}
+
+/*------------ Right box ------------*/
+
+.signup-container .right-box {
+  padding: 40px 30px 40px 40px;
+}
+
+/*------------ Custom Placeholder ------------*/
+
+.signup-container ::placeholder {
+  font-size: 16px;
+}
+
+.signup-container .rounded-4 {
+  border-radius: 20px;
+}
+.signup-container .rounded-5 {
+  border-radius: 30px;
+}
+
+.scrollable-inputs {
+  max-height: 300px; /* Adjust this value as needed */
+  overflow-y: auto;
+  padding-right: 15px; /* Add padding for the scrollbar */
+}
+
+.scrollable-inputs::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable-inputs::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scrollable-inputs::-webkit-scrollbar-thumb {
+  background-color: #22201d;
+  border-radius: 10px;
+}
+
+.scrollable-inputs::-webkit-scrollbar-thumb:hover {
+  background: rgb(50, 6, 6);
+}
+
+/*------------ For small screens------------*/
+
+@media only screen and (max-width: 768px) {
+  .signup-container .box-area {
+    margin: 0 10px;
+  }
+  .signup-container .left-box {
+    height: 100px;
+    overflow: hidden;
+  }
+}

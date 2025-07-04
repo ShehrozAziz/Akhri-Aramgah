@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingVertical="20dp"
+    android:background="@color/FG">
+
+
+    <ImageView
+        android:id="@+id/dialogImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="fill"
+        android:paddingHorizontal="20dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:layout_weight="1"
+            android:backgroundTint="@color/BG"
+            android:textColor="@color/FG"/>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:backgroundTint="@color/BG"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:textColor="@color/FG"/>
+    </LinearLayout>
+</LinearLayout>

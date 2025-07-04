@@ -1,0 +1,97 @@
+.modal_error {
+  background-color: rgba(34, 32, 29, 0.7); /* Semi-transparent background */
+}
+
+/* Overlay to blur background */
+.payment-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px); /* Blur effect */
+  z-index: 1050; /* Ensure it appears above everything */
+}
+
+/* Modal styling */
+.payment-modal {
+  background: #fff; /* White card */
+  color: black; /* Black text */
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Dark shadow */
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Card input styling */
+.card-input .form-control {
+  border: 2px solid #22201d; /* Dark border */
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/* Button styling */
+.pay-btn {
+  background: #22201d !important; /* Dark button */
+  color: white !important;
+}
+
+.pay-btn:disabled {
+  background: #555 !important;
+}
+
+.modal_error-content {
+  background-color: #ebeae9;
+  color: #22201d;
+  border-radius: 10px;
+}
+
+.modal_error .modal-header {
+  border-bottom: 1px solid #22201d;
+}
+
+.modal_error .modal-title {
+  color: #22201d;
+}
+
+.modal_error .modal-footer {
+  border-top: 1px solid #22201d;
+}
+
+.modal_error .close {
+  width: 40px;
+  height: 40px;
+  background-color: #22201d;
+  color: #ebeae9;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.modal_error .close:hover {
+  background-color: #22201d;
+  color: white;
+  box-shadow: 0 0 10px #22201d;
+}
+.modal_error .btn-primary {
+  background-color: #22201d;
+  border: none;
+}
+
+.modal_error .btn-primary:hover {
+  background-color: #22201d;
+  color: white;
+  box-shadow: 0 0 10px #22201d;
+}
+
+@media (max-width: 576px) {
+  .modal-dialog {
+    margin: 1rem; /* Ensure the modal doesn't touch the screen edges on mobile */
+  }
+}

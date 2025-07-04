@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Morgue_Module" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Morgue_Module" parent="Base.Theme.Morgue_Module" />
+    <style name="RoundedTopCorners" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearance">@style/ShapeAppearanceTopRounded</item>
+        <item name="cardCornerRadius">0dp</item> <!-- cardCornerRadius can be set to 0 because shapeAppearance will override it -->
+    </style>
+
+    <!-- Define the ShapeAppearance style -->
+    <style name="ShapeAppearanceTopRounded" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <!-- Rounded top-left and top-right corners -->
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">40dp</item>
+        <item name="cornerSizeTopRight">40dp</item>
+        <!-- Square bottom-left and bottom-right corners -->
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <style name="RoundedBottomSheetCorners" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearance">@style/ShapeAppearanceTopRoundedBottomSheet</item>
+        <item name="cardCornerRadius">0dp</item> <!-- cardCornerRadius can be set to 0 because shapeAppearance will override it -->
+    </style>
+
+    <!-- Define the ShapeAppearance style -->
+    <style name="ShapeAppearanceTopRoundedBottomSheet" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <!-- Rounded top-left and top-right corners -->
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">28dp</item>
+        <item name="cornerSizeTopRight">28dp</item>
+        <!-- Square bottom-left and bottom-right corners -->
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <!-- You can similarly create styles for RoundedBottomCorners if needed -->
+    <style name="RoundedBottomCorners" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearance">@style/ShapeAppearanceBottomRounded</item>
+    </style>
+
+    <style name="ShapeAppearanceBottomRounded" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <!-- Rounded bottom-left and bottom-right corners -->
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeBottomLeft">16dp</item>
+        <item name="cornerSizeBottomRight">16dp</item>
+        <!-- Square top-left and top-right corners -->
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+    </style>
+</resources>

@@ -1,0 +1,76 @@
+/* Main Container */
+.map-main-container {
+  background-color: white; /* Light background */
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 15px !important;
+  box-shadow: 3px 3px 3px #22201d !important;
+  max-width: 900px; /* Adjust as necessary */
+  margin: auto; /* Centering */
+}
+
+/* Card Styles */
+.map-card {
+  background-color: #ffffff; /* White card background */
+  border: none; /* No border */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Card Body */
+.map-card-body {
+  padding: 20px; /* Padding for card body */
+}
+
+/* Card Title */
+.map-card-title {
+  margin-bottom: 20px;
+  font-size: 1.75rem;
+  color: black; /* Dark text color */
+  font-weight: 1000; /* Bold title */
+  text-align: center;
+}
+
+/* Input Field */
+.map-input {
+  border: 1px solid #22201d; /* Dark border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* List Group Item */
+.list-group-item {
+  cursor: pointer; /* Pointer cursor */
+  transition: background-color 0.5s ease;
+}
+
+/* List Group Item Hover Effect */
+.list-group-item:hover {
+  background-color: #22201d;
+  color: white; /* Light gray background on hover */
+}
+
+/* Buttons */
+.map-button {
+  flex: 1; /* Allow buttons to take equal space */
+  padding: 10px 20px; /* Padding for buttons */
+  border-radius: 5px; /* Rounded corners */
+  font-weight: bold; /* Bold text */
+  background-color: #22201d;
+  margin: 10px;
+  color: white;
+}
+.map-button:hover {
+  background-color: #22201d;
+  color: white;
+  box-shadow: 0 0 10px #22201d;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .map-main-container {
+    padding: 15px; /* Reduce padding on smaller screens */
+  }
+
+  .map-card {
+    margin-bottom: 15px; /* Space between cards */
+  }
+}

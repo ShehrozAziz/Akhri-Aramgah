@@ -1,0 +1,97 @@
+Project Title: Akhri Aramgah
+Problem Statement
+Despite advancements in digital services worldwide, there is no single unified platform—locally or globally—that offers complete automation and coordination of burial and funeral services. In Pakistan and across the globe, grieving families face logistical, administrative, and emotional hurdles due to the lack of an integrated solution for managing post-death services. From arranging a burial site to transportation, documentation, and complaint handling, each task is fragmented, manual, and uncoordinated.
+
+Project Description
+Akhri Aramgah is the first-of-its-kind end-to-end burial and funeral management system, consisting of 7 interconnected applications:
+
+5 mobile applications (developed using React Native and Java for Android)
+
+2 web applications (developed in React.js)
+
+Each with its own dedicated backend developed in Node.js
+
+Integrated with email-based user verification and secure authentication
+
+Application Overview
+1. User Mobile App (React Native)
+Mirrors the functionality of the user web application
+
+Allows users to:
+
+Register a death
+
+Book burial services
+
+Request transportation or catering
+
+Track service status
+
+Submit complaints
+
+View burial locations and history
+
+2. User Web App (React.js)
+Web interface for users to access all functionalities including:
+
+Burial scheduling
+
+Payment management
+
+Viewing burial plots on map
+
+Complaint and feedback submission
+
+3. Admin Web App (React.js)
+Central control panel for managing all operational modules:
+
+Approve or reject user requests
+
+Assign stakeholders (gorkan, transporter, etc.)
+
+Monitor service health and escalated complaints
+
+Manage users, staff, and inventory
+
+4. Admin Mobile App (React Native)
+On-the-go version of admin panel with limited capabilities
+
+Allows quick actions, staff communication, and approvals
+
+5. Stakeholder Android App (Java)
+Designed for operational personnel who manage on-ground services
+
+Stakeholder Roles:
+
+Morgue Manager: Handles the body preservation and handover process
+
+Gorkan (Graveyard Manager): Assigns and manages grave plots and burial operations
+
+Transporter: Manages hearse or body transportation logistics
+
+Caterer: Provides food services for post-funeral gatherings
+
+Specialized Modules
+1. Shanakht Gar (Facial Recognition System)
+Uses AI-based facial recognition to help identify unclaimed bodies
+
+Matches images with a database of missing persons for rapid identification
+
+Streamlines morgue operations and assists law enforcement
+
+2. Shikayat Nazim (NLP-based Complaint Escalation)
+Analyzes user complaints using Natural Language Processing (NLP)
+
+Automatically categorizes, prioritizes, and escalates issues based on urgency and severity
+
+Enhances customer service efficiency and reduces response times
+
+3. Nigran (IoT-based Soil Moisture Monitoring)
+Uses IoT sensors to monitor soil moisture levels in graveyards
+
+Prevents issues like improper burial conditions or grave collapse
+
+Sends alerts to graveyard managers for timely irrigation or maintenance
+
+Conclusion
+Akhri Aramgah is a scalable, modular, and first-mover solution in the space of funeral tech. With its extensive use of modern technologies—React, Node.js, Android (Java), React Native, Facial Recognition, NLP, and IoT—it introduces automation and dignity in managing end-of-life services. By addressing a highly sensitive yet essential aspect of human life, it not only fills a crucial societal gap but also sets a precedent for tech-driven compassion and service.

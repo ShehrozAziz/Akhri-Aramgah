@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Gorkan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="server_IP">http://192.168.167.242:5004/</string>
+
+    <string name="websocket_IP">ws://192.168.167.242:5004/</string>
+
+</resources>

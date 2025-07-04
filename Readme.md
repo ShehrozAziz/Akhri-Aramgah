@@ -50,12 +50,6 @@ From arranging a burial site to transportation, documentation, and complaint han
   - Monitor complaints & services
   - Manage users, staff, and inventory
 
-### 4. **Admin Mobile App** (React Native)
-- Lightweight, on-the-go admin panel
-  - Fast approvals
-  - Internal communication
-  - Quick staff actions
-
 ### 5. **Stakeholder Android App** (Java)
 - Role-based operational app for field personnel:
   - **Morgue Manager** – Body handling & preservation

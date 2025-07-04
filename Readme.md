@@ -1,13 +1,106 @@
-Final Year Project - Application Suite
-======================================
+# 🕊️ Akhri Aramgah – End-to-End Burial & Funeral Management System
 
-This project consists of a complete system of mobile, web, and backend applications developed for the Final Year Project (FYP). It includes:
+## 📌 Project Title:
+**Akhri Aramgah**
 
-- 4 Android Applications in Java (in Mobile Applications -> Android Applications - Java)
-- 1 React Native Application in JavaScript (in Mobile Applications -> React Native Application)
-- 2 Web Frontend Applications in React (in Frontend Applications folder)
-- 7 Node.js Backend Applications (in Backend Applications folder, named Node <app_name>)
-- 3 Flask Backend Applications (in Backend Applications folder, named Flask <app_name>)
+---
+
+## ❓ Problem Statement
+
+Despite advancements in digital services worldwide, there is **no single unified platform**—locally or globally—that offers complete automation and coordination of **burial and funeral services**. In Pakistan and across the globe, grieving families face **logistical, administrative, and emotional hurdles** due to the lack of an integrated solution for managing post-death services.
+
+From arranging a burial site to transportation, documentation, and complaint handling, each task is **fragmented, manual, and uncoordinated**.
+
+---
+
+## 📘 Project Description
+
+**Akhri Aramgah** is the **first-of-its-kind** end-to-end **burial and funeral management system**, consisting of **7 interconnected applications**:
+
+- **5 Mobile Applications** (developed using **React Native** and **Java** for Android)
+- **2 Web Applications** (developed in **React.js**)
+- Each with its own dedicated **backend in Node.js**
+- Integrated with **email-based user verification** and **secure authentication**
+
+---
+
+## 📱 Application Overview
+
+### 1. **User Mobile App** (React Native)
+- Mirrors functionality of user web app
+- Allows users to:
+  - Register a death
+  - Book burial services
+  - Request transportation or catering
+  - Track service status
+  - Submit complaints
+  - View burial locations and history
+
+### 2. **User Web App** (React.js)
+- Web portal for user functionality:
+  - Burial scheduling
+  - Payment management
+  - Plot location on maps
+  - Feedback and complaint portal
+
+### 3. **Admin Web App** (React.js)
+- Central admin dashboard:
+  - Approve/reject requests
+  - Assign gorkan, transporter, caterer
+  - Monitor complaints & services
+  - Manage users, staff, and inventory
+
+### 4. **Admin Mobile App** (React Native)
+- Lightweight, on-the-go admin panel
+  - Fast approvals
+  - Internal communication
+  - Quick staff actions
+
+### 5. **Stakeholder Android App** (Java)
+- Role-based operational app for field personnel:
+  - **Morgue Manager** – Body handling & preservation
+  - **Gorkan** – Grave assignment & burial tracking
+  - **Transporter** – Hearse & logistics
+  - **Caterer** – Food service management
+
+---
+
+## 🔍 Specialized Modules
+
+### 📸 **Shanakht Gar (Facial Recognition System)**
+- AI-based facial recognition
+- Identifies **unclaimed bodies**
+- Matches with missing person database
+- Supports law enforcement and morgues
+
+### 🧠 **Shikayat Nazim (NLP Complaint Handler)**
+- NLP-powered complaint analyzer
+- Automatically **categorizes**, **prioritizes**, and **escalates** user issues
+- Boosts efficiency & response time
+
+### 🌱 **Nigran (IoT Soil Moisture Monitoring)**
+- Monitors **graveyard soil moisture** using IoT sensors
+- Detects risks like improper burial or collapse
+- Sends alerts for timely irrigation or maintenance
+
+---
+
+## ✅ Conclusion
+
+**Akhri Aramgah** is a **modular, scalable**, and **first-mover** platform in **funeral tech**.
+
+It blends modern tech:
+- 🟦 **React.js**
+- 🟩 **Node.js**
+- ⚫ **Android (Java)**
+- 🟨 **React Native**
+- 🤖 **Facial Recognition**
+- 🧠 **NLP**
+- 🌐 **IoT**
+
+By bringing **automation**, **transparency**, and **dignity** into managing post-death services, Akhri Aramgah addresses a highly sensitive and critical societal need.
+
+> ⚙️ Built with compassion. Powered by code.
 
 --------------------------------------------------
 

@@ -53,12 +53,7 @@ Monitor service health and escalated complaints
 
 Manage users, staff, and inventory
 
-4. Admin Mobile App (React Native)
-On-the-go version of admin panel with limited capabilities
-
-Allows quick actions, staff communication, and approvals
-
-5. Stakeholder Android App (Java)
+4. Stakeholder Android App (Java)
 Designed for operational personnel who manage on-ground services
 
 Stakeholder Roles:
